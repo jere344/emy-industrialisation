@@ -1,0 +1,4 @@
+$ curl -s -X POST https://dermascan-eg08.azurewebsites.net/predict -H 'Content-Type: application/json' -d @charge.json
+{"decision":"maligne","probabilite_maligne":0.866314,"rappel_cible":0.9,"seuil":0.33334563815577495,"version_modele":"1.0.0"}
+
+$ date -u: 2026-10-26T15:41:08Z

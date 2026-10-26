@@ -1,0 +1,4 @@
+$ curl -s -w ' [%{http_code}]' https://dermascan-eg08.azurewebsites.net/health
+{"model_loaded":true,"status":"ok"}
+ [200]
+$ date -u: 2026-10-26T15:41:08Z
