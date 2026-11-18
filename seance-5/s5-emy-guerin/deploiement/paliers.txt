@@ -1,0 +1,3 @@
+palier1 debut 10:32:46 UTC
+palier2 debut 10:35:46 UTC
+fin 10:38:47 UTC

@@ -1,0 +1,15 @@
+OK     cles du meta  — 19 cles
+OK     sha256 des poids
+OK     manifeste present et intact
+OK     effectifs du manifeste = meta  — 294 + 5000
+OK     aucun patient des deux cotes  — 0 en commun
+OK     sortie (lot, 1) : un logit par image  — (2, 1)
+OK     backbone gele hors ['fc', 'layer4']  — 122 tenseurs compares
+OK     correction_logit = ln(n_negatifs / negatifs disponibles)  — -3.7713
+OK     seuil = seuil_brut recalibre  — 0.0288 -> 0.000683
+OK     prevalence reelle < prevalence d'entrainement
+OK     PR-AUC au-dessus du hasard  — 0.493 contre 0.056
+OK     rappel au seuil >= rappel cible
+OK     controle ISIC_0104229 reproduit  — 0.062463 contre 0.062464
+
+13/13 controles OK — RENDU RECEVABLE

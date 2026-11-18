@@ -1,0 +1,175 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 938B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for cgr.dev/chainguard/wolfi-base:latest@sha256:2c12da5496e21e99003b3db3b9246f025e53d533c4df334205391260f1e8f85b
+#2 DONE 2.7s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 154B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 44.80MB 0.3s done
+#4 DONE 0.3s
+
+#5 [1/8] FROM cgr.dev/chainguard/wolfi-base:latest@sha256:2c12da5496e21e99003b3db3b9246f025e53d533c4df334205391260f1e8f85b
+#5 resolve cgr.dev/chainguard/wolfi-base:latest@sha256:2c12da5496e21e99003b3db3b9246f025e53d533c4df334205391260f1e8f85b 0.0s done
+#5 sha256:7a4877cecca890677d2aeeaaaa4a4659cff0e5b2db98ca578583621e510cc657 0B / 2.94MB 0.3s
+#5 sha256:f4265a56de30c1b9e087ad6d1fe2e30c7904cee15fe2b91ff2a46177a6cdd7de 0B / 513.55kB 0.3s
+#5 sha256:2c12da5496e21e99003b3db3b9246f025e53d533c4df334205391260f1e8f85b 1.14kB / 1.14kB done
+#5 sha256:fa63d07ad857b4fb4dacb80f3f269116d24e3f27f9ce41feed5c0f617afcaf7e 2.50kB / 2.50kB done
+#5 sha256:dd29c54ecc65fa46fae159a79fa75f4fb46fbeb4512d716e1bd905917526aa8e 2.86kB / 2.86kB done
+#5 sha256:3ebb173ec8b1bba46c0295df8911e9d86e19b5f898961a379fbee031821b710e 0B / 3.36MB 0.3s
+#5 sha256:f4265a56de30c1b9e087ad6d1fe2e30c7904cee15fe2b91ff2a46177a6cdd7de 513.55kB / 513.55kB 1.2s done
+#5 sha256:3ebb173ec8b1bba46c0295df8911e9d86e19b5f898961a379fbee031821b710e 1.05MB / 3.36MB 1.4s
+#5 sha256:82087d46dc9d24d8d866b734cf1a5bdeb870f6b7af4e0a1e76e891c3e869d280 0B / 355.53kB 1.4s
+#5 sha256:3ebb173ec8b1bba46c0295df8911e9d86e19b5f898961a379fbee031821b710e 2.10MB / 3.36MB 1.6s
+#5 sha256:7a4877cecca890677d2aeeaaaa4a4659cff0e5b2db98ca578583621e510cc657 1.05MB / 2.94MB 1.9s
+#5 sha256:3ebb173ec8b1bba46c0295df8911e9d86e19b5f898961a379fbee031821b710e 3.36MB / 3.36MB 1.8s done
+#5 extracting sha256:3ebb173ec8b1bba46c0295df8911e9d86e19b5f898961a379fbee031821b710e 0.0s done
+#5 sha256:f53829540a90766dc673f2a4d258003b3d6d0644d4a71bb303e2ab9a006e0fb9 0B / 425.35kB 1.9s
+#5 sha256:7a4877cecca890677d2aeeaaaa4a4659cff0e5b2db98ca578583621e510cc657 2.10MB / 2.94MB 2.1s
+#5 sha256:82087d46dc9d24d8d866b734cf1a5bdeb870f6b7af4e0a1e76e891c3e869d280 355.53kB / 355.53kB 2.0s done
+#5 sha256:dc2b2c4d05a68e22036d6b3acf944b702e8b98eaad7a732254734d0b61bc08eb 0B / 178.52kB 2.1s
+#5 sha256:7a4877cecca890677d2aeeaaaa4a4659cff0e5b2db98ca578583621e510cc657 2.94MB / 2.94MB 2.2s done
+#5 extracting sha256:7a4877cecca890677d2aeeaaaa4a4659cff0e5b2db98ca578583621e510cc657 0.0s done
+#5 sha256:386404bbcc5eb496e5f3a585e97e2b5c1a80371bc704877b879116b95cd73c57 0B / 97.92kB 2.2s
+#5 extracting sha256:f4265a56de30c1b9e087ad6d1fe2e30c7904cee15fe2b91ff2a46177a6cdd7de 0.0s done
+#5 extracting sha256:82087d46dc9d24d8d866b734cf1a5bdeb870f6b7af4e0a1e76e891c3e869d280 done
+#5 sha256:f53829540a90766dc673f2a4d258003b3d6d0644d4a71bb303e2ab9a006e0fb9 425.35kB / 425.35kB 2.4s done
+#5 extracting sha256:f53829540a90766dc673f2a4d258003b3d6d0644d4a71bb303e2ab9a006e0fb9 done
+#5 sha256:babe323e75b8b076eeaf77f17dd501448e3b20711b4a6d660a049d0d391f985d 0B / 95.80kB 2.5s
+#5 sha256:dc2b2c4d05a68e22036d6b3acf944b702e8b98eaad7a732254734d0b61bc08eb 178.52kB / 178.52kB 2.5s done
+#5 extracting sha256:dc2b2c4d05a68e22036d6b3acf944b702e8b98eaad7a732254734d0b61bc08eb done
+#5 sha256:53abc9c206651e9f8631d1ab1d470ecc0f6908f0733fa51e225c7d1cb340abcd 0B / 107.90kB 2.7s
+#5 sha256:386404bbcc5eb496e5f3a585e97e2b5c1a80371bc704877b879116b95cd73c57 97.92kB / 97.92kB 2.9s done
+#5 extracting sha256:386404bbcc5eb496e5f3a585e97e2b5c1a80371bc704877b879116b95cd73c57 done
+#5 sha256:9228d0731dae9d648c21f5975418700856c314ec8fe9c21bfeeec538f83e2337 0B / 79.23kB 2.9s
+#5 extracting sha256:babe323e75b8b076eeaf77f17dd501448e3b20711b4a6d660a049d0d391f985d
+#5 sha256:babe323e75b8b076eeaf77f17dd501448e3b20711b4a6d660a049d0d391f985d 95.80kB / 95.80kB 3.0s done
+#5 extracting sha256:babe323e75b8b076eeaf77f17dd501448e3b20711b4a6d660a049d0d391f985d done
+#5 sha256:cbb983c064c86a5d9f28bd9b862a2d5cfad27afd75198d8ee6086ac55bdebefc 0B / 14.79kB 3.1s
+#5 extracting sha256:53abc9c206651e9f8631d1ab1d470ecc0f6908f0733fa51e225c7d1cb340abcd
+#5 sha256:53abc9c206651e9f8631d1ab1d470ecc0f6908f0733fa51e225c7d1cb340abcd 107.90kB / 107.90kB 3.3s done
+#5 extracting sha256:53abc9c206651e9f8631d1ab1d470ecc0f6908f0733fa51e225c7d1cb340abcd done
+#5 extracting sha256:9228d0731dae9d648c21f5975418700856c314ec8fe9c21bfeeec538f83e2337
+#5 sha256:9228d0731dae9d648c21f5975418700856c314ec8fe9c21bfeeec538f83e2337 79.23kB / 79.23kB 3.4s done
+#5 extracting sha256:9228d0731dae9d648c21f5975418700856c314ec8fe9c21bfeeec538f83e2337 done
+#5 extracting sha256:cbb983c064c86a5d9f28bd9b862a2d5cfad27afd75198d8ee6086ac55bdebefc
+#5 sha256:cbb983c064c86a5d9f28bd9b862a2d5cfad27afd75198d8ee6086ac55bdebefc 14.79kB / 14.79kB 3.5s done
+#5 extracting sha256:cbb983c064c86a5d9f28bd9b862a2d5cfad27afd75198d8ee6086ac55bdebefc done
+#5 DONE 3.7s
+
+#6 [2/8] RUN apk add --no-cache python-3.12
+#6 0.336 fetch https://apk.cgr.dev/chainguard/x86_64/APKINDEX.tar.gz
+#6 3.539 (1/15) Installing py3-pip-wheel (26.2.2-r3)
+#6 5.299 (2/15) Installing libbz2-1 (1.0.8-r31)
+#6 6.636 (3/15) Installing libexpat1 (2.10.0-r1)
+#6 8.141 (4/15) Installing libffi (3.8.1-r0)
+#6 9.182 (5/15) Installing gdbm (1.26-r10)
+#6 10.46 (6/15) Installing xz (5.8.4-r2)
+#6 11.36 (7/15) Installing libstdc++ (16.2.0-r4)
+#6 12.66 (8/15) Installing mpdecimal (4.0.1-r6)
+#6 13.57 (9/15) Installing ncurses-terminfo-base (6.6.20261114-r0)
+#6 14.52 (10/15) Installing ncurses (6.6.20261114-r0)
+#6 15.58 (11/15) Installing readline (8.3-r4)
+#6 16.87 (12/15) Installing sqlite-libs (3.54.1-r0)
+#6 17.88 (13/15) Installing libuuid (2.42.4-r3)
+#6 18.78 (14/15) Installing python-3.12-base (3.12.16_git20261116-r0)
+#6 20.91 (15/15) Installing python-3.12 (3.12.16_git20261116-r0)
+#6 22.03 Executing busybox-1.38.0-r3.trigger
+#6 22.05 OK: 60 MiB in 34 packages
+#6 DONE 22.3s
+
+#7 [3/8] WORKDIR /app
+#7 DONE 0.0s
+
+#8 [4/8] COPY requirements.txt ./
+#8 DONE 0.0s
+
+#9 [5/8] RUN apk add --no-cache py3.12-pip     && pip install --no-cache-dir -r requirements.txt     && apk del --no-cache py3.12-pip
+#9 0.195 fetch https://apk.cgr.dev/chainguard/x86_64/APKINDEX.tar.gz
+#9 3.151 (1/3) Installing py3.12-setuptools (84.2.1-r0)
+#9 4.885 (2/3) Installing py3.12-pip-base (26.2.2-r3)
+#9 6.184 (3/3) Installing py3.12-pip (26.2.2-r3)
+#9 7.344 Executing busybox-1.38.0-r3.trigger
+#9 7.369 OK: 82 MiB in 37 packages
+#9 8.284 Collecting flask==3.1.3 (from -r requirements.txt (line 4))
+#9 8.484   Downloading flask-3.1.3-py3-none-any.whl.metadata (3.2 kB)
+#9 8.569 Collecting gunicorn==23.0.0 (from -r requirements.txt (line 5))
+#9 8.626   Downloading gunicorn-23.0.0-py3-none-any.whl.metadata (4.4 kB)
+#9 8.806 Collecting onnxruntime==1.31.0 (from -r requirements.txt (line 6))
+#9 8.862   Downloading onnxruntime-1.31.0-cp312-cp312-manylinux_2_28_x86_64.whl.metadata (5.7 kB)
+#9 9.227 Collecting numpy==2.5.4 (from -r requirements.txt (line 8))
+#9 9.293   Downloading numpy-2.5.4-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (6.6 kB)
+#9 9.620 Collecting pillow==13.0.0 (from -r requirements.txt (line 9))
+#9 9.695   Downloading pillow-13.0.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (9.1 kB)
+#9 9.750 Collecting blinker>=1.9.0 (from flask==3.1.3->-r requirements.txt (line 4))
+#9 9.812   Downloading blinker-1.9.0-py3-none-any.whl.metadata (1.6 kB)
+#9 9.878 Collecting click>=8.1.3 (from flask==3.1.3->-r requirements.txt (line 4))
+#9 9.924   Downloading click-8.5.1-py3-none-any.whl.metadata (2.6 kB)
+#9 9.975 Collecting itsdangerous>=2.2.0 (from flask==3.1.3->-r requirements.txt (line 4))
+#9 10.03   Downloading itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB)
+#9 10.10 Collecting jinja2>=3.1.2 (from flask==3.1.3->-r requirements.txt (line 4))
+#9 10.14   Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+#9 10.27 Collecting markupsafe>=2.1.1 (from flask==3.1.3->-r requirements.txt (line 4))
+#9 10.33   Downloading markupsafe-3.0.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)
+#9 10.41 Collecting werkzeug>=3.1.0 (from flask==3.1.3->-r requirements.txt (line 4))
+#9 10.45   Downloading werkzeug-3.1.9-py3-none-any.whl.metadata (4.1 kB)
+#9 10.52 Collecting packaging (from gunicorn==23.0.0->-r requirements.txt (line 5))
+#9 10.56   Downloading packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+#9 10.63 Collecting flatbuffers (from onnxruntime==1.31.0->-r requirements.txt (line 6))
+#9 10.69   Downloading flatbuffers-25.12.19-py2.py3-none-any.whl.metadata (1.0 kB)
+#9 10.96 Collecting protobuf>=4.25.8 (from onnxruntime==1.31.0->-r requirements.txt (line 6))
+#9 11.03   Downloading protobuf-7.36.2-cp310-abi3-manylinux2014_x86_64.whl.metadata (595 bytes)
+#9 11.09 Downloading flask-3.1.3-py3-none-any.whl (103 kB)
+#9 11.20 Downloading gunicorn-23.0.0-py3-none-any.whl (85 kB)
+#9 11.27 Downloading onnxruntime-1.31.0-cp312-cp312-manylinux_2_28_x86_64.whl (23.8 MB)
+#9 14.06    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 23.8/23.8 MB 8.7 MB/s  0:00:02
+#9 14.10 Downloading numpy-2.5.4-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.7 MB)
+#9 16.03    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.7/16.7 MB 8.7 MB/s  0:00:01
+#9 16.07 Downloading pillow-13.0.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (7.1 MB)
+#9 18.62    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.1/7.1 MB 2.9 MB/s  0:00:02
+#9 18.66 Downloading blinker-1.9.0-py3-none-any.whl (8.5 kB)
+#9 18.73 Downloading click-8.5.1-py3-none-any.whl (126 kB)
+#9 18.82 Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+#9 18.86 Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+#9 18.93 Downloading markupsafe-3.0.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (22 kB)
+#9 18.99 Downloading protobuf-7.36.2-cp310-abi3-manylinux2014_x86_64.whl (343 kB)
+#9 19.09 Downloading werkzeug-3.1.9-py3-none-any.whl (228 kB)
+#9 19.22 Downloading flatbuffers-25.12.19-py2.py3-none-any.whl (26 kB)
+#9 19.29 Downloading packaging-26.3-py3-none-any.whl (129 kB)
+#9 19.43 Installing collected packages: flatbuffers, protobuf, pillow, packaging, numpy, markupsafe, itsdangerous, click, blinker, werkzeug, onnxruntime, jinja2, gunicorn, flask
+#9 23.47 
+#9 23.47 Successfully installed blinker-1.9.0 click-8.5.1 flask-3.1.3 flatbuffers-25.12.19 gunicorn-23.0.0 itsdangerous-2.2.0 jinja2-3.1.6 markupsafe-3.0.4 numpy-2.5.4 onnxruntime-1.31.0 packaging-26.3 pillow-13.0.0 protobuf-7.36.2 werkzeug-3.1.9
+#9 23.47 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+#9 23.47 
+#9 23.47 [notice] A new release of pip is available: 26.2.2 -> 26.3
+#9 23.47 [notice] To update, run: pip install --upgrade pip
+#9 23.59 fetch https://apk.cgr.dev/chainguard/x86_64/APKINDEX.tar.gz
+#9 27.80 (1/3) Purging py3.12-pip (26.2.2-r3)
+#9 27.80 (2/3) Purging py3.12-pip-base (26.2.2-r3)
+#9 27.83 (3/3) Purging py3.12-setuptools (84.2.1-r0)
+#9 27.84 Executing busybox-1.38.0-r3.trigger
+#9 27.86 OK: 66 MiB in 34 packages
+#9 DONE 28.1s
+
+#10 [6/8] COPY model/ ./model/
+#10 DONE 0.1s
+
+#11 [7/8] COPY app.py ./
+#11 DONE 0.0s
+
+#12 [8/8] RUN adduser -D -u 10001 appuser
+#12 DONE 0.2s
+
+#13 exporting to image
+#13 exporting layers
+#13 exporting layers 0.7s done
+#13 writing image sha256:b24deda27e36b7b41cfd8466b1422c4e34de753e477af9f98797986ed9c347d1 done
+#13 naming to docker.io/library/dermascan-api:2.1.0 done
+#13 DONE 0.7s
+duree_build 58.54 s

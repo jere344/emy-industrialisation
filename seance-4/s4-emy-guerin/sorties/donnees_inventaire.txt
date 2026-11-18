@@ -1,0 +1,19 @@
+archive Permissive : 217,477 vignettes, 294 positifs (0.135 %), 634 patients
+echantillon : 5,294 vignettes (294 pos + 5000 neg, graine 42), prevalence 5.55 %
+  entrainement  4236 vignettes  235 positifs   466 patients
+  validation    1058 vignettes   59 positifs   109 patients
+patients communs aux deux jeux : 0
+manifeste : model/manifeste_echantillon.csv  sha256 64d2e25ddd474269...
+vignettes en RAM : (5294, 128, 128, 3) uint8, 260 Mo
+taille d'origine (500 premieres) : mediane 127 px, min 87, max 215
+duree 10.94 s
+===SECOND===
+archive Permissive : 217,477 vignettes, 294 positifs (0.135 %), 634 patients
+echantillon : 5,294 vignettes (294 pos + 5000 neg, graine 42), prevalence 5.55 %
+  entrainement  4236 vignettes  235 positifs   466 patients
+  validation    1058 vignettes   59 positifs   109 patients
+patients communs aux deux jeux : 0
+manifeste : model/manifeste_echantillon.csv  sha256 64d2e25ddd474269...
+vignettes en RAM : (5294, 128, 128, 3) uint8, 260 Mo
+taille d'origine (500 premieres) : mediane 127 px, min 87, max 215
+duree 5.31 s

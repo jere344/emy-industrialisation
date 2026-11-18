@@ -1,0 +1,5 @@
+conforme debut 16:04:13
+conforme (archive) : 600 appels, codes {200: 600}, a_examiner 126 (21.0%)
+derive debut 16:14:18
+derive (eclairage) : 600 appels, codes {200: 600}, a_examiner 104 (17.3%)
+fin 16:24:23

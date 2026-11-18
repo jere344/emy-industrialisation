@@ -1,0 +1,55 @@
+The push refers to repository [dermascaneg08.azurecr.io/dermascan-api]
+308095c5d15d: Preparing
+635decf837ec: Preparing
+e34e976f215d: Preparing
+3d6a8e24ced9: Preparing
+f778dd323213: Preparing
+d7a0a0880f1b: Preparing
+9dae6e53cf34: Preparing
+68068c5876dc: Preparing
+d7a0a0880f1b: Waiting
+9dae6e53cf34: Waiting
+3261d905e4e9: Preparing
+68068c5876dc: Waiting
+2af97d351f06: Preparing
+960bd9bef340: Preparing
+c77049249d91: Preparing
+9a5af3c2653f: Preparing
+24f670d1e337: Preparing
+6e407bcb8877: Preparing
+3261d905e4e9: Waiting
+7f3cc23f9542: Preparing
+81ac36f4bee4: Preparing
+2af97d351f06: Waiting
+2ae036f15afe: Preparing
+960bd9bef340: Waiting
+c77049249d91: Waiting
+6e407bcb8877: Waiting
+9a5af3c2653f: Waiting
+7f3cc23f9542: Waiting
+81ac36f4bee4: Waiting
+24f670d1e337: Waiting
+2ae036f15afe: Waiting
+f778dd323213: Pushed
+635decf837ec: Pushed
+308095c5d15d: Pushed
+d7a0a0880f1b: Pushed
+68068c5876dc: Pushed
+2af97d351f06: Layer already exists
+3261d905e4e9: Pushed
+960bd9bef340: Pushed
+c77049249d91: Pushed
+24f670d1e337: Layer already exists
+6e407bcb8877: Layer already exists
+9a5af3c2653f: Pushed
+81ac36f4bee4: Layer already exists
+7f3cc23f9542: Pushed
+2ae036f15afe: Pushed
+9dae6e53cf34: Pushed
+e34e976f215d: Pushed
+3d6a8e24ced9: Pushed
+2.1.0: digest: sha256:661dc2e727f2bee988562346a0e29c2d6ecfd79339977f181b1b83da96077505 size: 4090
+
+real	2m0,086s
+user	0m0,026s
+sys	0m0,040s

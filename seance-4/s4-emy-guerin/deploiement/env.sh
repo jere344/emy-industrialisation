@@ -1,0 +1,12 @@
+export SUFFIX="EG08"
+export RG_REGISTRE="rg-dermascan-registre-$SUFFIX"
+export RG="rg-dermascan-s4-$SUFFIX"
+export ACR_NAME="dermascaneg08"
+export PLAN_NAME="plan-dermascan-s4-$SUFFIX"
+export APP_NAME="dermascan-api-s4-$SUFFIX"
+export LOCATION=$(az acr show --name "$ACR_NAME" --query location --output tsv)
+export LOGIN_SERVER=$(az acr show --name "$ACR_NAME" --query loginServer --output tsv)
+export IMAGE_FULL="$LOGIN_SERVER/dermascan-api:2.0.0"
+export ACR_ID=$(az acr show --name "$ACR_NAME" --query id --output tsv)
+export APP_URL="https://${APP_NAME,,}.azurewebsites.net"
+export PRINCIPAL_ID=5603aa1b-eca4-4b47-81b9-5aaeb686cf63

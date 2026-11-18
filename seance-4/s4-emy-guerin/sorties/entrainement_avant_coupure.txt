@@ -1,0 +1,2 @@
+[cpu] entrainement 4236 (235 pos), validation 1058 (59 pos), chargement 5.1 s
+epoque 1 phase tete perte_entrainement 0.2669 pr_auc 0.1541 roc_auc 0.5297 pauc_80 0.0116 duree_s 58.6796
